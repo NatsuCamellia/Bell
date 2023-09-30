@@ -1,0 +1,18 @@
+---
+layout: default
+---
+{% for post in site.posts %}
+    <a class="post-container" href="{{ post.url }}">
+        <div>
+            <h1 class="post-item-title">{{ post.title }}</h1>
+            <div class="post-item-date">
+                <time datetime="{{ page.date }}">{{ post.date | date: "%b %d, %Y" }}</time>
+            </div>
+            <div class="post-item-excerpt">
+                {{ post.excerpt }}
+            </div>
+        </div>
+    </a>
+    <hr>
+{% endfor %}
+  

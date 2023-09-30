@@ -1,0 +1,22 @@
+---
+---
+
+$container-responsive-width: 768px;
+
+$sans-serif-font-family: "Quattrocento Sans",sans-serif;
+$serif-font-family:      "PT Serif", Georgia, "Times New Roman", serif;
+
+// Colors
+$dark-gray-color:        #555;
+$light-gray-color:       #999;
+$extra-light-gray-color: #ccc;
+
+$text-color:             black;
+$link-color:             cornflowerblue;
+$link-hover-color:         $dark-gray-color;
+
+@import "header",
+        "footer",
+        "post",
+        "home",
+        "base";

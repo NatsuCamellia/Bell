@@ -1,0 +1,37 @@
+.header {
+    border-bottom: 1px solid lightgray;
+}
+
+.header-container {
+    padding: 1em 0;
+}
+
+.header-title {
+    display: inline-block;
+    margin: 0;
+}
+
+.header-title a {
+    color: $dark-gray-color;
+    text-decoration: none;
+}
+
+.header-title a:hover {
+    color: $text-color;
+    text-decoration: none;
+}
+
+.site-nav {
+    float: right;
+}
+
+.nav-item {
+    margin-left: 2em;
+    color: $light-gray-color;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    color: $dark-gray-color;
+    text-decoration: none;
+}

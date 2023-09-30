@@ -1,0 +1,45 @@
+.container, .header-container, .site-footer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
+@media (max-width: $container-responsive-width) {
+    .container, .header-container, .site-footer {
+      width: 90vw;
+    }
+}
+
+body {
+    font-size: 18px;
+    font-family: $serif-font-family;
+    line-height: 1.75em;
+    margin: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $sans-serif-font-family;
+}
+
+hr {
+    height: 1px;
+    margin: 2em auto;
+    border: 0px;
+    background-color: lightgray ;
+}
+
+a {
+    color: $link-color;
+    text-decoration: none;
+}
+
+a:hover {
+    color: $link-hover-color;
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
